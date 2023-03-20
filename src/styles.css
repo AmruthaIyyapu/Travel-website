@@ -163,6 +163,11 @@ div.images-grid {
   width: 80%;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
+}
+
+.img-responsive2:hover {
+  transform: scale(1.5);
 }
 
 footer {
@@ -269,7 +274,13 @@ footer p {
     .images-grid {
       grid-template-columns: 1fr;
       width: 100%;
+      display: block;
       margin: 0 auto;
+    }
+
+    .secondary,
+    section {
+      padding: 10px;
     }
   }
 }
